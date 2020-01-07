@@ -7,16 +7,20 @@
     padding: 0rem 6rem;
 }
 
-.field .icon-circle .icon {
+.field .icon {
     border-right: 1px solid #000;
     padding: 0rem 1.5rem;
     color: #000;
 }
 
-.field .icon-circle .icon:last-child {
+.field .icon:last-child {
     border-right: none;
 }
 
+.circles {
+    justify-content: flex-end;
+    padding: 0rem 6rem;
+}
 .circle {
     background-color: #fb778e;
     width: 3.5rem;
@@ -31,6 +35,9 @@
     background-size:  cover;
     margin-bottom: 0.2rem;
     padding-top: 18rem;
+    margin-top: -2rem;
+    background-color: #000;
+    opacity: 0.4;
 }
 
 .bottom-border {
