@@ -108,3 +108,25 @@
     width: 100%;
     margin-top: 4rem;
 }
+
+footer .container {
+    background-color: darkmagenta;
+    padding-bottom: 2rem;
+}
+
+.footer-logo {
+    justify-content: center;
+}
+
+.footer-paragraph {
+    padding: 0 20%;
+}
+
+.privacy-policy {
+    border-right: 1px solid #fff;
+    padding-right: 0.5rem;
+}
+
+.padding-provider {
+    padding-top: 1rem;
+}
