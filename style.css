@@ -1,0 +1,110 @@
+.top-border {
+    height: 1rem;
+    background-color: #717ebd;
+}
+
+.navbar {
+    padding: 0rem 6rem;
+}
+
+.field .icon-circle .icon {
+    border-right: 1px solid #000;
+    padding: 0rem 1.5rem;
+    color: #000;
+}
+
+.field .icon-circle .icon:last-child {
+    border-right: none;
+}
+
+.circle {
+    background-color: #fb778e;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 6rem;
+}
+
+.hero {
+    background-image: url('./images/hero.png') ;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+    margin-bottom: 0.2rem;
+    padding-top: 18rem;
+}
+
+.bottom-border {
+    height: 2.3rem;
+    background-color: #717ebd;
+    padding: 0 10rem;
+}
+
+.bottom-border-margin {
+    margin-top: -1rem;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text .title {
+    align-self: flex-end; 
+    margin-right: 8rem;
+}
+
+.hero-image {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 10rem;
+}
+
+.headline {
+    margin-top: 3rem;
+    color: #fb778e;
+}
+
+.paragraph {
+    padding: 1rem 0rem;
+}
+
+.circle-bullet {
+    background-color: #fb778e;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 6rem;
+    margin-right: 1rem;
+}
+
+.service-feature {
+    border-bottom: 1px solid #fb778e;
+    border-top: 1px solid #fb778e;
+    padding: 1.5rem 0;
+}
+
+.location-text {
+    padding: 1.5rem;
+}
+
+.card-content {
+    background-color: #fb778e;
+    padding: 1rem;
+}
+
+.card-border {
+    border-bottom: 1px solid #fff;
+    padding: 0.7rem 0;
+}
+
+.card-paragraph {
+    margin-top: 1rem;
+}
+
+.container-padding {
+    padding: 0rem 5rem;
+}
+
+.image-bottom {
+    width: 100%;
+    margin-top: 4rem;
+}
