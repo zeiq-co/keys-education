@@ -28,7 +28,7 @@
     border-radius: 6rem;
 }
 
-.hero {
+.index-hero{
     background-image: url('./images/hero.png') ;
     background-position: center center;
     background-repeat:  no-repeat;
@@ -136,4 +136,30 @@ footer .container {
 
 .padding-provider {
     padding-top: 1rem;
+}
+
+/* for Schoolf page */
+
+.field .contact {
+    border-right: 1px solid #000;
+    padding: 0rem 0.5rem;
+    color: #000;
+}
+
+.field .contact:last-child {
+    border-right: none;
+}
+
+.school-hero{
+    background-image: url('./images/discussion.png') ;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+    margin-bottom: 0.2rem;
+    padding-top: 18rem;
+    margin-top: -1.5rem;
+}
+
+.columns-border-bottom {
+    border-bottom: 1px solid #fb778e;
 }
