@@ -138,7 +138,7 @@ footer .container {
     padding-top: 1rem;
 }
 
-/* for Schoolf page */
+/* for School page */
 
 .field .contact {
     border-right: 1px solid #000;
@@ -162,4 +162,29 @@ footer .container {
 
 .columns-border-bottom {
     border-bottom: 1px solid #fb778e;
+}
+
+.border-bottom-image {
+    height: 2rem;
+    background-color: #717ebd;
+    padding: 0 1rem;
+    margin-top: -0.4rem;
+}
+
+.is-64x64 {
+    position: absolute;
+    left: 16rem;
+    margin-top: 3.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .is-64x64 {
+        position: absolute;
+        left: 16rem;
+        margin-top: 3.5rem;
+    }
+  }
+
+.aim {
+    margin-top: 1.5rem;
 }
