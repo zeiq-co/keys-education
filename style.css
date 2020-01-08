@@ -1,101 +1,101 @@
 .top-border {
-    height: 1rem;
-    background-color: #717ebd;
+  height: 1rem;
+  background-color: #717ebd;
 }
 
 .navbar {
-    padding: 0rem 6rem;
+  padding: 0rem 6rem;
 }
 
 .field .icon {
-    border-right: 1px solid #000;
-    padding: 0rem 1.5rem;
-    color: #000;
+  border-right: 1px solid #000;
+  padding: 0rem 1.5rem;
+  color: #000;
 }
 
 .field .icon:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 .circles {
-    justify-content: flex-end;
-    padding: 0rem 6rem;
+  justify-content: flex-end;
+  padding: 0rem 6rem;
 }
 .circle {
-    background-color: #fb778e;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 6rem;
+  background-color: #fb778e;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 6rem;
 }
 
 .index-hero{
-    background-image: url('./images/hero.png') ;
-    background-position: center center;
-    background-repeat:  no-repeat;
-    background-size:  cover;
-    margin-bottom: 0.2rem;
-    padding-top: 18rem;
-    margin-top: -1.5rem;
-    background-color: #000;
-    opacity: 0.4;
+  background-image: url('./images/hero.png') ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  margin-bottom: 0.2rem;
+  padding-top: 18rem;
+  margin-top: -1.5rem;
+  background-color: #000;
+  opacity: 0.4;
 }
 
 .bottom-border {
-    height: 2.3rem;
-    background-color: #717ebd;
-    padding: 0 10rem;
+  height: 2.3rem;
+  background-color: #717ebd;
+  padding: 0 10rem;
 }
 
 .bottom-border-margin {
-    margin-top: -1rem;
+  margin-top: -1rem;
 }
 
 .hero-text {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-text .title {
-    align-self: flex-end; 
-    margin-right: 8rem;
+  align-self: flex-end; 
+  margin-right: 8rem;
 }
 
 .hero-image {
-    width: 7rem;
-    height: 7rem;
-    border-radius: 10rem;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 10rem;
 }
 
 .headline {
-    margin-top: 3rem;
-    color: #fb778e;
+  margin-top: 3rem;
+  color: #fb778e;
 }
 
 .paragraph {
-    padding: 1rem 0rem;
+  padding: 1rem 0rem;
 }
 
 .circle-bullet {
-    background-color: #fb778e;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 6rem;
-    margin-right: 1rem;
+  background-color: #fb778e;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 6rem;
+  margin-right: 1rem;
 }
 
 .service-feature {
-    border-bottom: 1px solid #fb778e;
-    border-top: 1px solid #fb778e;
-    padding: 1.5rem 0;
+  border-bottom: 1px solid #fb778e;
+  border-top: 1px solid #fb778e;
+  padding: 1.5rem 0;
 }
 
 .location-text {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
 .card-content {
-    background-color: #fb778e;
-    padding: 1rem;
+  background-color: #fb778e;
+  padding: 1rem;
 }
 
 .card-border {
@@ -104,117 +104,128 @@
 }
 
 .card-paragraph {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .container-padding {
-    padding: 0rem 5rem;
+  padding: 0rem 5rem;
 }
 
 .image-bottom {
-    width: 100%;
-    margin-top: 4rem;
+  width: 100%;
+  margin-top: 4rem;
 }
 
 footer .container {
-    background-color: darkmagenta;
-    padding-bottom: 2rem;
+  background-color: darkmagenta;
+  padding-bottom: 2rem;
 }
 
 .footer-logo {
-    justify-content: center;
+  justify-content: center;
 }
 
 .footer-paragraph {
-    padding: 0 20%;
+  padding: 0 20%;
 }
 
 .privacy-policy {
-    border-right: 1px solid #fff;
-    padding-right: 0.5rem;
+  border-right: 1px solid #fff;
+  padding-right: 0.5rem;
 }
 
 .padding-provider {
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 /* for School page */
 
 .field .contact {
-    border-right: 1px solid #000;
-    padding: 0rem 0.5rem;
-    color: #000;
+  border-right: 1px solid #000;
+  padding: 0rem 0.5rem;
+  color: #000;
 }
 
 .field .contact:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 .school-hero{
-    background-image: url('./images/discussion.png') ;
-    background-position: center center;
-    background-repeat:  no-repeat;
-    background-size:  cover;
-    margin-bottom: 0.2rem;
-    padding-top: 18rem;
-    margin-top: -1.5rem;
+  background-image: url('./images/discussion.png') ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  margin-bottom: 0.2rem;
+  padding-top: 18rem;
+  margin-top: -1.5rem;
 }
 
 .columns-border-bottom {
-    border-bottom: 1px solid #fb778e;
+  border-bottom: 1px solid #fb778e;
 }
 
 .border-bottom-image {
-    height: 2rem;
-    background-color: #717ebd;
-    padding: 0 1rem;
-    margin-top: -0.4rem;
+  height: 2rem;
+  background-color: #717ebd;
+  padding: 0 1rem;
+  margin-top: -0.4rem;
 }
 
+.is-64x64 {
+  position: absolute;
+  left: 16rem;
+  margin-top: 3.5rem;
+}
+
+@media only screen and (max-width: 768px) {
 .is-64x64 {
     position: absolute;
     left: 16rem;
     margin-top: 3.5rem;
+  }
 }
 
-@media only screen and (max-width: 600px) {
-    .is-64x64 {
-        position: absolute;
-        left: 16rem;
-        margin-top: 3.5rem;
-    }
-  }
-
 .aim {
-    margin-top: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .quote {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
-.fa-quote-right {
-    position: absolute;
-    bottom: 3rem;
-    right: 4rem;
+.quote-right {
+  position: absolute;
+  bottom: 3rem;
+  right: 4rem;
+  color: rgb(113, 218, 113);
 }
-@media only screen and (max-width: 600px) {
-    .columns {
-        margin-left: 0rem; 
-        margin-right: 0rem;    
-    }
-    h1 {
-        padding-left: .75rem;
-    }
-    .bottom-border {
-        padding: 0;
-        text-align: center;
-    }
-    .container-padding {
-        padding: 0rem 0rem;
-    }
-    .hero-text .title {
-        align-self: flex-end;
-        margin-right: 1rem;
-    }
+
+.quote-margin {
+  margin-top: 10rem;
+}
+
+.quote-position {
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+ .columns {
+    margin-left: 0rem; 
+    margin-right: 0rem;    
+   }
+  h1 {
+    padding-left: .75rem;
   }
+  .bottom-border {
+    padding: 0;
+    text-align: center;
+  }
+  .container-padding {
+    padding: 0rem 0rem;
+  }
+  .hero-text .title {
+    align-self: flex-end;
+    margin-right: 1rem;
+  }
+}
+
