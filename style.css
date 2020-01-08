@@ -188,3 +188,13 @@ footer .container {
 .aim {
     margin-top: 1.5rem;
 }
+
+.quote {
+    justify-content: flex-end;
+}
+
+.fa-quote-right {
+    position: absolute;
+    bottom: 3rem;
+    right: 4rem;
+}
