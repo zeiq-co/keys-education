@@ -105,6 +105,33 @@
 
 .location-text {
   padding: 1.5rem;
+  z-index: 300;
+}
+
+.first-image {
+  position: absolute;
+  z-index: 1;
+  width: 18rem;
+  margin-left: -11rem;
+  margin-top: -1rem;
+}
+
+.second-image {
+  position: relative;
+  z-index: 200;
+  margin-top: 2rem;
+}
+
+.third-image {
+  position: absolute;
+  z-index: 2;
+  width: 18rem;
+  margin-left: -9rem;
+  margin-top: 5rem;
+}
+
+.columns-margin-top {
+  margin-top: 3rem;
 }
 
 .card-content {
@@ -191,7 +218,6 @@ footer .container {
   background-position: center center;
   background-repeat:  no-repeat;
   background-size:  cover;
-  margin-bottom: 0.2rem;
   padding-top: 3rem;
   margin-top: -4.5rem;
   height: 21rem;
@@ -200,7 +226,7 @@ footer .container {
 
 .hero-text-school {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .columns-border-bottom {
@@ -255,6 +281,34 @@ footer .container {
   justify-content: center;
 }
 
+.quote-margin-top {
+  margin-top: -4rem;
+}
+
+.quote-image {
+  margin-top: -2rem;
+}
+
+.school-bottom-image {
+  background-image: url('./images/discussion.png') ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  margin-bottom: 0.2rem;
+  padding-top: 3rem;
+  margin-top: -4.5rem;
+  height: 17rem;
+  width: 69.7%;
+  margin-left: 24rem;
+}
+
+.column-index {
+  z-index: 1;
+}
+
+.column-padding {
+  padding: 0.2rem;
+}
 @media only screen and (max-width: 768px) {
  .columns {
     margin-left: 0rem; 
@@ -279,10 +333,10 @@ footer .container {
     background-position: center center;
     background-repeat:  no-repeat;
     background-size:  cover;
-    margin-bottom: 0.2rem;
     padding-top: 3rem;
     margin-top: -1.5rem;
-    height: 21rem;
+    height: 10rem;
+    width: 100%;
   }
 }
 
