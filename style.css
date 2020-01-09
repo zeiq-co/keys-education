@@ -22,7 +22,7 @@
   padding: 0rem 6rem;
 }
 .circle {
-  background-color: #fb778e;
+  background-color: #e5017d;
   width: 3rem;
   height: 3rem;
   border-radius: 6rem;
@@ -66,7 +66,7 @@
 
 .headline {
   margin-top: 3rem;
-  color: #fb778e;
+  color: #e5017d;
 }
 
 .paragraph {
@@ -74,7 +74,7 @@
 }
 
 .circle-bullet {
-  background-color: #fb778e;
+  background-color: #e5017d;
   width: 2rem;
   height: 2rem;
   border-radius: 6rem;
@@ -82,9 +82,25 @@
 }
 
 .service-feature {
-  border-bottom: 1px solid #fb778e;
-  border-top: 1px solid #fb778e;
+  border-bottom: 1px solid #e5017d;
+  border-top: 1px solid #e5017d;
   padding: 1.5rem 0;
+}
+
+.service-background {
+  background-image: url('./images/dummy-min.jpg') ;
+  background-repeat:  no-repeat;
+  padding-top: 18rem;
+  margin-top: -10.5rem;
+  width: 50%;
+}
+
+.service-bottom-background {
+  background-image: url('./images/dummy-min.jpg') ;
+  background-repeat:  no-repeat;
+  padding-top: 18rem;
+  margin-top: -10.5rem;
+  width: 50%;
 }
 
 .location-text {
@@ -92,7 +108,7 @@
 }
 
 .card-content {
-  background-color: #fb778e;
+  background-color: #e5017d;
   padding: 1rem;
 }
 
@@ -107,6 +123,7 @@
 
 .container-padding {
   padding: 0rem 5rem;
+  margin-top: 3rem;
 }
 
 .image-bottom {
@@ -148,7 +165,7 @@ footer .container {
   border-right: none;
 }
 
-.school-hero{
+.school-hero {
   background-image: url('./images/discussion.png') ;
   background-position: center center;
   background-repeat:  no-repeat;
@@ -158,8 +175,36 @@ footer .container {
   margin-top: -1.5rem;
 }
 
+.school-quote {
+  background-image: url('./images/discussion.png') ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  margin-bottom: 0.2rem;
+  padding-top: 3rem;
+  margin-top: -1.5rem;
+  height: 21rem
+}
+
+.school-bottom {
+  background-image: url('./images/discussion.png') ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  margin-bottom: 0.2rem;
+  padding-top: 3rem;
+  margin-top: -4.5rem;
+  height: 21rem;
+  width: 78%;
+}
+
+.hero-text-school {
+  display: flex;
+  justify-content: center;
+}
+
 .columns-border-bottom {
-  border-bottom: 1px solid #fb778e;
+  border-bottom: 1px solid #e5017d;
 }
 
 .border-bottom-image {
@@ -193,13 +238,17 @@ footer .container {
 
 .quote-right {
   position: absolute;
-  bottom: 3rem;
+  bottom: 15.5rem;
   right: 4rem;
   color: rgb(113, 218, 113);
 }
 
 .quote-margin {
-  margin-top: 10rem;
+  margin-top: 6.6rem;
+}
+
+.has-line-height {
+  line-height: 1.1rem;
 }
 
 .quote-position {
@@ -224,6 +273,16 @@ footer .container {
   .hero-text .title {
     align-self: flex-end;
     margin-right: 1rem;
+  }
+  .school-bottom {
+    background-image: url('./images/discussion.png') ;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+    margin-bottom: 0.2rem;
+    padding-top: 3rem;
+    margin-top: -1.5rem;
+    height: 21rem;
   }
 }
 
