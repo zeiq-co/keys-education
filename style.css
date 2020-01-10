@@ -8,7 +8,7 @@
 }
 
 .bg-image-index {
-  background-image: url('./images/dummy-min.jpg') ;
+  background-image: url('./images/dummy.jpg') ;
   background-size:  cover;
   background-repeat:  no-repeat;
 }
@@ -206,7 +206,7 @@ footer .container {
 }
 
 .bg-image {
-  background-image: url('./images/dummy-min.jpg') ;
+  background-image: url('./images/dummy.jpg') ;
   background-size:  cover;
   background-repeat:  no-repeat;
 }
