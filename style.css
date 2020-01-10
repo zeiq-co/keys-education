@@ -71,6 +71,7 @@
 
 .paragraph {
   padding: 1rem 0rem;
+  line-height: 1.3rem;
 }
 
 .circle-bullet {
@@ -211,6 +212,10 @@ footer .container {
   padding-top: 3rem;
   margin-top: -1rem;
   height: 21rem
+}
+
+.side-image {
+  border: 1px solid #e5017d;
 }
 
 .school-bottom {
