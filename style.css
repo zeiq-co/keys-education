@@ -256,6 +256,10 @@ footer .container {
   border-bottom: 1px solid #e5017d;
 }
 
+.property-align {
+  align-self: center;
+}
+
 .border-bottom-image {
   height: 2rem;
   background-color: #717ebd;
