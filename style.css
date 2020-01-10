@@ -7,6 +7,12 @@
   padding: 0rem 6rem;
 }
 
+.bg-image-index {
+  background-image: url('./images/dummy-min.jpg') ;
+  background-size:  cover;
+  background-repeat:  no-repeat;
+}
+
 .field .icon {
   border-right: 1px solid #000;
   padding: 0rem 1.5rem;
@@ -28,7 +34,7 @@
   border-radius: 6rem;
 }
 
-.index-hero{
+.index-hero {
   background-image: url('./images/hero.png') ;
   background-position: center center;
   background-repeat:  no-repeat;
@@ -39,7 +45,7 @@
 }
 
 .bottom-border {
-  height: 2.3rem;
+  height: 3.3rem;
   background-color: #717ebd;
   padding: 0 10rem;
 }
@@ -189,8 +195,20 @@ footer .container {
   color: #000;
 }
 
+.bottom-border-school {
+  height: 2.3rem;
+  background-color: #717ebd;
+  padding: 0 10rem;
+}
+
 .field .contact:last-child {
   border-right: none;
+}
+
+.bg-image {
+  background-image: url('./images/dummy-min.jpg') ;
+  background-size:  cover;
+  background-repeat:  no-repeat;
 }
 
 .school-hero {
